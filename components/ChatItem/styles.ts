@@ -5,6 +5,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     borderRadius: 5,
+    cursor: 'pointer',
     padding: 10,
     marginBottom: 10,
   },

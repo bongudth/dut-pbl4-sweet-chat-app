@@ -1,14 +1,23 @@
-import React from 'react';
-import { View, Image, Text } from 'react-native';
-import moment from "moment";
-import styles from './styles';
+import React from 'react'
+import { useNavigation } from '@react-navigation/core'
+import { Pressable, View, Image, Text } from 'react-native'
+import moment from "moment"
+import styles from './styles'
 
-export default function ChatItem({ chatItem }) {
-  const user = chatItem.users[1];
+export default function ChatItem({ chatItem }: any) {
+  const user = chatItem.users[1]
+
+  const navigation = useNavigation()
+
+  const navChat = () => {
+    navigation.navigate('ChatScreen', { id: chatItem.id })
+  }
 
   return (
-    <View style={styles.item}>
-      <Image source={{uri: user.imageUri}} style={styles.image} />
+    <Pressable
+      onPress={navChat}
+      style={styles.item}>
+      <Image source={{ uri: user.imageUri }} style={styles.image} />
       <View>
         <View style={styles.row}>
           <Text style={styles.name}>{user.name}</Text>
@@ -19,6 +28,6 @@ export default function ChatItem({ chatItem }) {
           {chatItem.newMessages ? <View style={styles.noti}><Text style={styles.count}>{chatItem.newMessages}</Text></View> : null}
         </View>
       </View>
-    </View>
+    </Pressable>
   );
 }

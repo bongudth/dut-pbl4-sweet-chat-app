@@ -20,8 +20,8 @@ export type RootStackParamList = {
 };
 
 export type RootStackScreenProps<Screen extends keyof RootStackParamList> = NativeStackScreenProps<
-  RootStackParamList,
-  Screen
+RootStackParamList,
+Screen
 >;
 
 export type RootTabParamList = {

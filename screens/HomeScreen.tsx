@@ -5,8 +5,8 @@ import ChatItemData from '../assets/data/ChatItemData';
 
 export default function TabOneScreen() {
   return (
-    <View style={styles.container}>
-      <FlatList 
+    <View style={styles.homeContainer}>
+      <FlatList
         data={ChatItemData}
         renderItem={({ item }) => <ChatItem chatItem={item} />}
         showsVerticalScrollIndicator={false}
@@ -16,7 +16,7 @@ export default function TabOneScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: {
+  homeContainer: {
     backgroundColor: 'white',
     width: 320,
     padding: 10,

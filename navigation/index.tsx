@@ -8,16 +8,20 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer, DefaultTheme, DarkTheme } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import * as React from 'react';
-import { ColorSchemeName, Pressable } from 'react-native';
+import { ColorSchemeName, Pressable, View, Image, Text } from 'react-native';
+import { Entypo, AntDesign } from '@expo/vector-icons';
 
 import Colors from '../constants/Colors';
 import useColorScheme from '../hooks/useColorScheme';
 import ModalScreen from '../screens/ModalScreen';
 import NotFoundScreen from '../screens/NotFoundScreen';
-import TabOneScreen from '../screens/TabOneScreen';
+import TabOneScreen from '../screens/HomeScreen';
 import TabTwoScreen from '../screens/TabTwoScreen';
 import { RootStackParamList, RootTabParamList, RootTabScreenProps } from '../types';
 import LinkingConfiguration from './LinkingConfiguration';
+
+import HomeScreen from '../screens/HomeScreen';
+import ChatScreen from '../screens/ChatScreen';
 
 export default function Navigation({ colorScheme }: { colorScheme: ColorSchemeName }) {
   return (
@@ -38,7 +42,63 @@ const Stack = createNativeStackNavigator<RootStackParamList>();
 function RootNavigator() {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="Root" component={BottomTabNavigator} options={{ headerShown: false }} />
+      <Stack.Screen
+        name="HomeScreen"
+        component={HomeScreen}
+        options={{
+          headerStyle: {
+            backgroundColor: 'indianred',
+          },
+          headerLeft: () => {
+            return (
+              <Image
+                source={{ uri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.jpg' }}
+                style={{ width: 40, height: 40, resizeMode: 'contain', borderRadius: 20, marginLeft: 10 }}
+              />
+            )
+          },
+          headerTitle: 'Sweetagram',
+          headerTintColor: 'snow',
+          headerTitleAlign: 'center',
+          headerRight: () => {
+            return (
+              <Entypo
+                name="new-message"
+                style={{ color: 'snow', fontSize: 24, marginRight: 10 }}
+              />
+            )
+          },
+        }}
+      />
+      <Stack.Screen
+        name="ChatScreen"
+        component={ChatScreen}
+        options={{
+          headerStyle: {
+            backgroundColor: 'indianred',
+          },
+          headerTitle: (props) => {
+            return (
+              <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                <Image
+                  source={{ uri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.jpg' }}
+                  style={{ width: 40, height: 40, resizeMode: 'contain', borderRadius: 20, marginLeft: -20 }}
+                />
+                <Text style={{ color: 'snow', fontSize: 16, fontWeight: 'bold', marginLeft: 10 }}>{props.children}</Text>
+              </View>
+            )
+          },
+          headerTintColor: 'snow',
+          headerRight: () => {
+            return (
+              <AntDesign
+                name="edit"
+                style={{ color: 'snow', fontSize: 24, marginRight: 10 }}
+              />
+            )
+          },
+        }}
+      />
       <Stack.Screen name="NotFound" component={NotFoundScreen} options={{ title: 'Oops!' }} />
       <Stack.Group screenOptions={{ presentation: 'modal' }}>
         <Stack.Screen name="Modal" component={ModalScreen} />
