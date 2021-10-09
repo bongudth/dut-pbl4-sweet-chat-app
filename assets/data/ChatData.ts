@@ -2,20 +2,20 @@ export default {
 	id: '1',
 	users: [{
 		id: 'u1',
-		name: 'Vadim',
-		imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.jpg',
+		name: 'Konno Yuuki',
+		imageUri: 'https://i.imgur.com/Rbz8jcU.jpeg',
 	}, {
 		id: 'u2',
-		name: 'Elon Musk',
-		imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/elon.png',
+		name: 'Mana Mitsuya',
+		imageUri: 'https://i.imgur.com/Kt2SeGg.jpeg',
 	}],
 	messages: [{
 		id: 'm1',
-		content: 'How are you, Elon!',
+		content: 'How are you, Mana!',
 		createdAt: '2020-10-10T12:48:00.000Z',
 		user: {
 			id: 'u1',
-			name: 'Vadim',
+			name: 'Konno Yuuki',
 		},
 	}, {
 		id: 'm2',
@@ -23,7 +23,7 @@ export default {
 		createdAt: '2020-10-03T14:49:00.000Z',
 		user: {
 			id: 'u2',
-			name: 'Elon Musk',
+			name: 'Mana Mitsuya',
 		},
 	}, {
 		id: 'm3',
@@ -31,7 +31,7 @@ export default {
 		createdAt: '2020-10-03T14:49:40.000Z',
 		user: {
 			id: 'u2',
-			name: 'Elon Musk',
+			name: 'Mana Mitsuya',
 		},
 	}, {
 		id: 'm4',
@@ -39,15 +39,15 @@ export default {
 		createdAt: '2020-10-03T14:50:00.000Z',
 		user: {
 			id: 'u1',
-			name: 'Vadim',
+			name: 'Konno Yuuki',
 		},
 	}, {
 		id: 'm5',
-		content: 'How is SpaceX doing?',
+		content: 'How are you doing?',
 		createdAt: '2020-10-03T14:51:00.000Z',
 		user: {
 			id: 'u1',
-			name: 'Vadim',
+			name: 'Konno Yuuki',
 		},
 	}, {
 		id: 'm6',
@@ -55,15 +55,15 @@ export default {
 		createdAt: '2020-10-03T14:49:00.000Z',
 		user: {
 			id: 'u2',
-			name: 'Elon Musk',
+			name: 'Mana Mitsuya',
 		},
 	}, {
 		id: 'm7',
-		content: 'btw, SpaceX is interested in buying notJust.dev!',
+		content: 'btw, you are interested in buying Sweetagram!',
 		createdAt: '2020-10-03T14:53:00.000Z',
 		user: {
 			id: 'u2',
-			name: 'Elon Musk',
+			name: 'Mana Mitsuya',
 		},
 	}]
 }

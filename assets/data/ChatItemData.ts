@@ -2,12 +2,12 @@ export default [{
   id: '1',
   users: [{
     id: 'u1',
-    name: 'Linh',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/Linh.jpg',
+    name: 'Konno Yuuki',
+    imageUri: 'https://i.imgur.com/Rbz8jcU.jpeg',
   }, {
     id: 'u2',
-    name: 'Elon Musk',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/elon.png',
+    name: 'Mana Mitsuya',
+    imageUri: 'https://i.imgur.com/Kt2SeGg.jpeg',
   }],
   lastMessage: {
     id: 'm1',
@@ -19,12 +19,12 @@ export default [{
   id: '2',
   users: [{
     id: 'u1',
-    name: 'Linh',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/Linh.jpg',
+    name: 'Konno Yuuki',
+    imageUri: 'https://i.imgur.com/Rbz8jcU.jpeg',
   }, {
     id: 'u3',
-    name: 'Jeff',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/jeff.jpeg',
+    name: 'Haruto Amou',
+    imageUri: 'https://i.imgur.com/Cid63cK.jpeg',
   }],
   lastMessage: {
     id: 'm2',
@@ -36,12 +36,12 @@ export default [{
   id: '3',
   users: [{
     id: 'u1',
-    name: 'Linh',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/Linh.jpg',
+    name: 'Konno Yuuki',
+    imageUri: 'https://i.imgur.com/Rbz8jcU.jpeg',
   }, {
     id: 'u4',
-    name: 'Zuck',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/zuck.jpeg',
+    name: 'Saya Otonashi',
+    imageUri: 'https://i.imgur.com/bG2mV3e.jpeg',
   }],
   lastMessage: {
     id: 'm3',
@@ -53,12 +53,12 @@ export default [{
   id: '4',
   users: [{
     id: 'u1',
-    name: 'Linh',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/Linh.jpg',
+    name: 'Konno Yuuki',
+    imageUri: 'https://i.imgur.com/Rbz8jcU.jpeg',
   }, {
     id: 'u5',
-    name: 'Graham',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/graham.jpg',
+    name: 'Kappa Mikey',
+    imageUri: 'https://i.imgur.com/jXZi9yE.jpeg',
   }],
   lastMessage: {
     id: 'm4',
@@ -70,12 +70,12 @@ export default [{
   id: '5',
   users: [{
     id: 'u1',
-    name: 'Linh',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/Linh.jpg',
+    name: 'Konno Yuuki',
+    imageUri: 'https://i.imgur.com/Rbz8jcU.jpeg',
   }, {
     id: 'u6',
-    name: 'Biahaze',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/biahaze.jpg',
+    name: 'Tohru Honda',
+    imageUri: 'https://i.imgur.com/P3Pv5C4.jpeg',
   }],
   lastMessage: {
     id: 'm5',
@@ -87,12 +87,12 @@ export default [{
   id: '6',
   users: [{
     id: 'u1',
-    name: 'Linh',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/Linh.jpg',
+    name: 'Konno Yuuki',
+    imageUri: 'https://i.imgur.com/Rbz8jcU.jpeg',
   }, {
     id: 'u7',
-    name: 'Sus?',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg',
+    name: 'Kyo Sohma',
+    imageUri: 'https://i.imgur.com/9njQTmR.jpeg',
   }],
   lastMessage: {
     id: 'm6',
@@ -104,12 +104,12 @@ export default [{
   id: '7',
   users: [{
     id: 'u1',
-    name: 'Linh',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/Linh.jpg',
+    name: 'Konno Yuuki',
+    imageUri: 'https://i.imgur.com/Rbz8jcU.jpeg',
   }, {
     id: 'u8',
-    name: 'Daniel',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/2.jpg',
+    name: 'Somau Yoki',
+    imageUri: 'https://i.imgur.com/hMAoZos.jpeg',
   }],
   lastMessage: {
     id: 'm7',
@@ -121,12 +121,12 @@ export default [{
   id: '8',
   users: [{
     id: 'u1',
-    name: 'Linh',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/Linh.jpg',
+    name: 'Konno Yuuki',
+    imageUri: 'https://i.imgur.com/Rbz8jcU.jpeg',
   }, {
     id: 'u9',
-    name: 'Carlos',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/3.jpg',
+    name: 'Souma Akito',
+    imageUri: 'https://i.imgur.com/22mvRik.jpeg',
   }],
   lastMessage: {
     id: 'm8',
@@ -138,114 +138,12 @@ export default [{
   id: '9',
   users: [{
     id: 'u1',
-    name: 'Linh',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/Linh.jpg',
+    name: 'Konno Yuuki',
+    imageUri: 'https://i.imgur.com/Rbz8jcU.jpeg',
   }, {
     id: 'u10',
-    name: 'Angelina Jolie',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/4.jpg',
-  }],
-  lastMessage: {
-    id: 'm9',
-    content: 'Meet me at the same place',
-    createdAt: '2020-09-25T15:40:00.000Z',
-  },
-  newMessages: 0,
-}, {
-  id: '10',
-  users: [{
-    id: 'u1',
-    name: 'Linh',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/Linh.jpg',
-  }, {
-    id: 'u5',
-    name: 'Graham',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/graham.jpg',
-  }],
-  lastMessage: {
-    id: 'm4',
-    content: 'Destroy the like button!',
-    createdAt: '2020-09-29T14:48:00.000Z',
-  },
-  newMessages: 0,
-}, {
-  id: '11',
-  users: [{
-    id: 'u1',
-    name: 'Linh',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/Linh.jpg',
-  }, {
-    id: 'u6',
-    name: 'Biahaze',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/biahaze.jpg',
-  }],
-  lastMessage: {
-    id: 'm5',
-    content: 'I would be happy',
-    createdAt: '2020-09-30T14:48:00.000Z',
-  },
-  newMessages: 2,
-}, {
-  id: '12',
-  users: [{
-    id: 'u1',
-    name: 'Linh',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/Linh.jpg',
-  }, {
-    id: 'u7',
-    name: 'Sus?',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg',
-  }],
-  lastMessage: {
-    id: 'm6',
-    content: 'Who sus?',
-    createdAt: '2020-10-02T15:40:00.000Z',
-  },
-  newMessages: 0,
-}, {
-  id: '13',
-  users: [{
-    id: 'u1',
-    name: 'Linh',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/Linh.jpg',
-  }, {
-    id: 'u8',
-    name: 'Daniel',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/2.jpg',
-  }],
-  lastMessage: {
-    id: 'm7',
-    content: 'How are you doing?',
-    createdAt: '2020-10-02T15:40:00.000Z',
-  },
-  newMessages: 0,
-}, {
-  id: '14',
-  users: [{
-    id: 'u1',
-    name: 'Linh',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/Linh.jpg',
-  }, {
-    id: 'u9',
-    name: 'Carlos',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/3.jpg',
-  }],
-  lastMessage: {
-    id: 'm8',
-    content: 'Hola hola coca cola?',
-    createdAt: '2020-09-27T15:40:00.000Z',
-  },
-  newMessages: 0,
-}, {
-  id: '15',
-  users: [{
-    id: 'u1',
-    name: 'Linh',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/Linh.jpg',
-  }, {
-    id: 'u10',
-    name: 'Angelina Jolie',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/4.jpg',
+    name: 'Nahoya Kawata',
+    imageUri: 'https://i.imgur.com/s1DkI9o.jpeg',
   }],
   lastMessage: {
     id: 'm9',

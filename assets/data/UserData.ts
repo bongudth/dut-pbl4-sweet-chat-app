@@ -1,42 +1,42 @@
 export default [{
   id: 'u1',
-  name: 'Vadim',
-  imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.jpg',
+  name: 'Konno Yuuki',
+  imageUri: 'https://i.imgur.com/Rbz8jcU.jpeg',
   status: "Hello there, how are you"
 }, {
   id: 'u2',
-  name: 'Elon Musk',
-  imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/elon.png',
+  name: 'Mana Mitsuya',
+  imageUri: 'https://i.imgur.com/Kt2SeGg.jpeg',
 }, {
   id: 'u3',
-  name: 'Jeff',
-  imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/jeff.jpeg',
+  name: 'Haruto Amou',
+  imageUri: 'https://i.imgur.com/Cid63cK.jpeg',
 }, {
   id: 'u4',
-  name: 'Zuck',
-  imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/zuck.jpeg',
+  name: 'Saya Otonashi',
+  imageUri: 'https://i.imgur.com/bG2mV3e.jpeg',
 }, {
   id: 'u5',
-  name: 'Graham',
-  imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/graham.jpg',
+  name: 'Kappa Mikey',
+  imageUri: 'https://i.imgur.com/jXZi9yE.jpeg',
 }, {
   id: 'u6',
-  name: 'Biahaze',
-  imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/biahaze.jpg',
+  name: 'Tohru Honda',
+  imageUri: 'https://i.imgur.com/P3Pv5C4.jpeg',
 }, {
   id: 'u7',
-  name: 'Sus?',
-  imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg',
+  name: 'Kyo Sohma',
+  imageUri: 'https://i.imgur.com/9njQTmR.jpeg',
 }, {
   id: 'u8',
-  name: 'Daniel',
-  imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/2.jpg',
+  name: 'Somau Yoki',
+  imageUri: 'https://i.imgur.com/hMAoZos.jpeg',
 }, {
   id: 'u9',
-  name: 'Carlos',
-  imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/3.jpg',
+  name: 'Souma Akito',
+  imageUri: 'https://i.imgur.com/22mvRik.jpeg',
 }, {
   id: 'u10',
-  name: 'Angelina Jolie',
-  imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/4.jpg',
+  name: 'Nahoya Kawata',
+  imageUri: 'https://i.imgur.com/s1DkI9o.jpeg',
 }]

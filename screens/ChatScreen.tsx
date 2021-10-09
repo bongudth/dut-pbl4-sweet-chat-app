@@ -9,7 +9,7 @@ const ChatScreen = () => {
   const route = useRoute()
 
   const navigation = useNavigation()
-  navigation.setOptions({ title: 'Khanh Linh' })
+  navigation.setOptions({ title: 'Mana Mitsuya' })
 
   return (
     <SafeAreaView style={styles.chatContainer}>

@@ -52,7 +52,7 @@ function RootNavigator() {
           headerLeft: () => {
             return (
               <Image
-                source={{ uri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.jpg' }}
+                source={{ uri: 'https://i.imgur.com/Rbz8jcU.jpeg' }}
                 style={{ width: 40, height: 40, resizeMode: 'contain', borderRadius: 20, marginLeft: 10 }}
               />
             )
@@ -81,7 +81,7 @@ function RootNavigator() {
             return (
               <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                 <Image
-                  source={{ uri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.jpg' }}
+                  source={{ uri: 'https://i.imgur.com/Kt2SeGg.jpeg' }}
                   style={{ width: 40, height: 40, resizeMode: 'contain', borderRadius: 20, marginLeft: -20 }}
                 />
                 <Text style={{ color: 'snow', fontSize: 16, fontWeight: 'bold', marginLeft: 10 }}>{props.children}</Text>
